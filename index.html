@@ -1,13 +1,16 @@
 <!doctype html>
 <html>
-	<head>
-		<title>DocFinit</title>
-		<script type="text/javascript">
-		function redirectToHostedApp() {
-			window.location = "http://192.168.0.14:8095/mobile";
-		}
-		</script>
-	</head>
-	<body onload="redirectToHostedApp();">
-	</body>
+<head>
+    <title>DocFinit</title>
+    <script type="text/javascript">
+        document.addEventListener('deviceready', function () {
+            navigator.splashscreen.hide();
+        });
+        function redirectToHostedApp() {
+            window.location = "http://192.168.0.14:8095/mobile";
+        }
+    </script>
+</head>
+<body onload="redirectToHostedApp();">
+</body>
 </html>

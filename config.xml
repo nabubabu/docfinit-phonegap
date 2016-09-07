@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns		= "http://www.w3.org/ns/widgets"
-	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "hu.ottone.docfinit"
-	version 	= "1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets"
+        id="hu.ottone.docfinit"
+        version="1.0.0">
 
-	<name>DocFinit</name>
+    <name>DocFinit</name>
 
-	<description>
-		DocFinit leírás
-	</description>
+    <feature name="http://api.phonegap.com/1.0/network"/>
 
-	<author href="https://bitbucket.org/meruemsoftware/"
-		email="meruem@meruemsoftware.hu">
-		Meruem Software Kft.
-	</author>
-
-	<icon src="icon.png" gap:role="default" />
-
-	<feature name="http://api.phonegap.com/1.0/network"/>
-	
-	<!-- These rules lets app take over the web view created by cordova/phonegap -->
-	<preference name="stay-in-webview" value="true" />
-	<!-- Do not auto hide splash on iOS -->
-	<preference name="AutoHideSplashScreen" value="false" />
-	<!-- Do not auto hide splash on Android -->
-	<preference name="SplashScreenDelay" value="1000"/>
-
-	<gap:plugin name="org.apache.cordova.splashscreen" />
+    <!-- These rules lets app take over the web view created by cordova/phonegap -->
+    <preference name="stay-in-webview" value="true"/>
 </widget>
