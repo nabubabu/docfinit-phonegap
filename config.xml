@@ -7,7 +7,7 @@
 	<name>DocFinit</name>
 
 	<description>
-		DocFinit start
+		DocFinit leírás
 	</description>
 
 	<author href="https://bitbucket.org/meruemsoftware/"
@@ -17,10 +17,14 @@
 
 	<icon src="icon.png" gap:role="default" />
 
-	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	
 	<!-- These rules lets app take over the web view created by cordova/phonegap -->
 	<preference name="stay-in-webview" value="true" />
+	<!-- Do not auto hide splash on iOS -->
+	<preference name="AutoHideSplashScreen" value="false" />
+	<!-- Do not auto hide splash on Android -->
+	<preference name="SplashScreenDelay" value="1000"/>
 
+	<gap:plugin name="org.apache.cordova.splashscreen" />
 </widget>
