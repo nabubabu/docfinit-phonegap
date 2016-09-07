@@ -1,0 +1,10 @@
+$v-unit-size: 26px;
+
+@import "../valo/valo.scss";
+@import "addons.scss";
+
+.docfinit {
+	// Include valo theme styles in your theme
+	@include valo;
+	@include addons;
+}
