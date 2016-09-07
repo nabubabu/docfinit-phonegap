@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "hu.ottone.docfinit"
+	version 	= "1.0.0">
+
+	<name>DocFinit</name>
+
+	<description>
+		DocFinit start
+	</description>
+
+	<author href="https://bitbucket.org/meruemsoftware/"
+		email="meruem@meruemsoftware.hu">
+		Meruem Software Kft.
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	
+	<!-- These rules lets app take over the web view created by cordova/phonegap -->
+	<preference name="stay-in-webview" value="true" />
+
+</widget>
