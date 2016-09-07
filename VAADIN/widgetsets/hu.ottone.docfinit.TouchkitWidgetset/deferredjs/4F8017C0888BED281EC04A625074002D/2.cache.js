@@ -1,1 +1,0 @@
-$wnd.hu_ottone_docfinit_TouchkitWidgetset.runAsyncCallback2('Wvb(1873,1,E9e);_.Ie=function G2c(){mKc((!fKc&&(fKc=new tKc),fKc),this.a.d)};VTe(Om)(2);\n//# sourceURL=hu.ottone.docfinit.TouchkitWidgetset-2.js\n')
