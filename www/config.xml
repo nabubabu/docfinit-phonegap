@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.vaadin.demo.parking"
+        id        = "hu.ottone.docfinit.webapp"
         version   = "1.0.0">
 
-    <name>Parking</name>
+    <name>DocFinit</name>
 
     <description>
-        Vaadin Parking Demo.
+       DocFinit
     </description>
 
-    <author href="http://vaadin.com" email="manolo@vaadin.com">
-        Manolo Carrasco Moñino
+    <author href="http://meruemsoftware.hu" email="acsadam@meruemsoftware.hu">
+        Ács Ádám
     </author>
 
     <!--
